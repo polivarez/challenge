@@ -13,7 +13,8 @@
         "noUnusedParameters": false,
         "noUnusedLocals": true,
         "esModuleInterop": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "allowJs": true
   }
 }
 
