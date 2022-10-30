@@ -20,7 +20,6 @@
     ],
     "rules": {
         "@typescript-eslint/no-redeclare": "off",
-        "semi": "off",
-        "@typescript-eslint/semi": "off"
+        "semi": "warn"
     }
 }
