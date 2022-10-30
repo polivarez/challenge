@@ -1,6 +1,5 @@
 import { injectable } from 'inversify'
-import { ClientApi } from '../interfaces/client_api'
-import { Todo } from '../interfaces/todo'
+import { ClientApi, Todo } from '../entities/'
 import axios from 'axios'
 
 @injectable()
@@ -17,8 +16,7 @@ export class TodoClient implements ClientApi<Todo> {
         })
       return todoget
     } catch (error) {
-      console.log(error)
-      return null
+      return []
     }
   }
 

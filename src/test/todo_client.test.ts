@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 
-import { ClientApi, Todo } from '../interfaces/'
+import { ClientApi, Todo } from '../core/entities/'
 import container from '../config/ioc_config'
 import SERVICE_IDENTIFIER from '../constants/identifiers'
 

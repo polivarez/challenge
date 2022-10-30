@@ -1,8 +1,8 @@
 import 'reflect-metadata'
 
 import { Container } from 'inversify'
-import { ClientApi, Api, Todo } from '../interfaces/'
-import { TodoClient, ApiManager } from '../entities/'
+import { ClientApi, Api, Todo } from '../core/entities/'
+import { TodoClient, ApiManager } from '../core/services/'
 
 import SERVICE_IDENTIFIER from '../constants/identifiers'
 

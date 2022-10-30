@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify'
-import { Api, Todo, ClientApi } from '../interfaces/'
-import SERVICE_IDENTIFIER from '../constants/identifiers'
+import { Api, Todo, ClientApi } from '../entities/'
+import SERVICE_IDENTIFIER from '../../constants/identifiers'
 
 @injectable()
 export class ApiManager implements Api<Todo> {
